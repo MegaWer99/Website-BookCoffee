@@ -3,6 +3,9 @@ table {
     border: 2px solid rgb(200, 200, 200);
     letter-spacing: 1px;
     font-size: 0.8rem;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 td,
@@ -127,7 +130,12 @@ h1 {
 h2 {
     font-size: 24px;
     margin: 0;
+    margin-left: 70px;
     padding: 0;
+}
+
+h3{
+    text-align: center;
 }
 
 .container {
@@ -144,7 +152,22 @@ p {
 
 .image {
     float: right;
-    margin: 0 10px 20px 40px;
+    margin: 0 90px 20px 40px;
+    max-width: 25%;
+    height: auto;
+}
+
+svg {
+
+    float: right;
+    margin: 0 90px 20px 40px;
+    max-width: 25%;
+    height: auto;
+}
+
+.svg {
+    float: left;
+    margin: 0 20px 20px 70px;
     max-width: 25%;
     height: auto;
 }
@@ -152,13 +175,13 @@ p {
 .image2 {
     float: left;
     margin: 0 20px 20px 0;
-    max-width: 31%;
+    max-width: 26%;
     height: auto;
 }
 
 .portada {
     background-image: url('../assets/img/Cafeteria2.jpg');
-    height: 100vh;
+    height: 60vh;
     background-size: cover;
     background-position: center;
   }
@@ -172,16 +195,17 @@ p {
     border: 1px solid #CCC;
 }
 
+.article2 {
+    margin-top: 120px;
+}
+
+
 .footer {
     background-color: #333;
     color: #FFF;
     padding: 10px;
     text-align: center;
     clear: both;
-}
-
-.article2 {
-    margin-top: 70px;
 }
 
 nav {
@@ -272,4 +296,10 @@ nav a:active {
 
 .formulario input[type="submit"]:hover {
     background-color: #45a049;
+}
+
+p {
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: justify;
 }
